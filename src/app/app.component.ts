@@ -7,12 +7,12 @@ import * as firebase from 'firebase';
 
 const config =  {
   production: false,
-  apiKey: "AIzaSyBYThMrbjOwXLTksqVd2zWKmwH86nfbydg",
-  authDomain: "ionic-763e1.firebaseapp.com",
-  databaseURL: "https://chatroomsc9032.firebaseio.com",
-  projectId: "ionic-763e1",
-  storageBucket: "ionic-763e1.appspot.com",
-  messagingSenderId: "543642243705"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 import { HomePage } from '../pages/home/home';
 @Component({
