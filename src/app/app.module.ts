@@ -1,3 +1,4 @@
+import { UsersPage } from './../pages/users/users';
 import { AddRoomPage } from './../pages/add-room/add-room';
 import { RoomPage } from './../pages/room/room';
 import { SigninPage } from './../pages/signin/signin';
@@ -16,7 +17,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     SigninPage,
     RoomPage,
-    AddRoomPage
+    AddRoomPage,
+    UsersPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     SigninPage,
     RoomPage,
-    AddRoomPage
+    AddRoomPage,
+    UsersPage
   ],
   providers: [
     StatusBar,
